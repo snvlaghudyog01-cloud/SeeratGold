@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
+import WhatsAppIcon from '../common/WhatsAppIcon';
 import { CONTACT_INFO } from '../../utils/constants';
 
 const footerLinks = {
@@ -117,7 +118,7 @@ const Footer = () => {
               >
                 <div className="w-9 h-9 rounded-lg bg-white/5 flex items-center justify-center
                                 group-hover:bg-whatsapp/10 transition-colors">
-                  <MessageCircle size={16} />
+                  <WhatsAppIcon size={16} />
                 </div>
                 WhatsApp Us
               </a>

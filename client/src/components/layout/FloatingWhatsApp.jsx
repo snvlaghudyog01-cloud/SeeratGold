@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageCircle, X } from 'lucide-react';
+import { X } from 'lucide-react';
+import WhatsAppIcon from '../common/WhatsAppIcon';
 import { generateWhatsAppURL, getGeneralInquiryMessage, WHATSAPP_NUMBER } from '../../utils/whatsapp';
 
 const FloatingWhatsApp = () => {
@@ -71,7 +72,7 @@ const FloatingWhatsApp = () => {
                    transition-all duration-300 ease-premium whatsapp-pulse"
         aria-label="Chat on WhatsApp"
       >
-        <MessageCircle size={26} fill="white" strokeWidth={0} />
+        <WhatsAppIcon size={26} fill="white" />
         
         {/* Online indicator */}
         <span className="absolute top-0 right-0 w-3.5 h-3.5 rounded-full bg-green-400 

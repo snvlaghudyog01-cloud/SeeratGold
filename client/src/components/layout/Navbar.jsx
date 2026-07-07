@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, MessageCircle, ChevronDown, Search } from 'lucide-react';
+import { Menu, X, ChevronDown, Search } from 'lucide-react';
+import WhatsAppIcon from '../common/WhatsAppIcon';
 import { generateWhatsAppURL, getGeneralInquiryMessage, WHATSAPP_NUMBER } from '../../utils/whatsapp';
 
 const navLinks = [
@@ -104,7 +105,7 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 className="btn-white text-base px-5 py-2.5"
               >
-                <MessageCircle size={18} className="text-[#25D366]" />
+                <WhatsAppIcon size={18} className="text-[#25D366]" />
                 WhatsApp
               </a>
             </div>
@@ -208,7 +209,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                     className="btn-whatsapp w-full text-center"
                   >
-                    <MessageCircle size={18} />
+                    <WhatsAppIcon size={18} />
                     Order on WhatsApp
                   </a>
                 </div>

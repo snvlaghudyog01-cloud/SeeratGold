@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { MessageCircle } from 'lucide-react';
+import WhatsAppIcon from './WhatsAppIcon';
 import {
   generateWhatsAppURL,
   getProductInquiryMessage,
@@ -53,7 +53,7 @@ const WhatsAppButton = ({
       className={`${buttonClass} inline-flex items-center justify-center gap-1.5 font-body font-semibold transition-all ${className}`}
       aria-label={`Order ${productName || 'products'} via WhatsApp`}
     >
-      <MessageCircle size={variant === 'icon' ? 20 : 16} />
+      <WhatsAppIcon size={variant === 'icon' ? 20 : 16} />
       {variant !== 'icon' && (
         <span>{isCombo ? 'Order Combo' : 'Order Now'}</span>
       )}

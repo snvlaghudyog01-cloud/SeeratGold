@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Check, X, MessageCircle } from 'lucide-react';
+import { Check, X } from 'lucide-react';
+import WhatsAppIcon from '../common/WhatsAppIcon';
 import { generateWhatsAppURL, WHATSAPP_NUMBER } from '../../utils/whatsapp';
 import { useAppContext } from '../../context/AppContext';
 
@@ -122,7 +123,7 @@ const CustomComboBuilder = () => {
                   : 'bg-gray-200 text-gray-400 cursor-not-allowed'
               }`}
             >
-              <MessageCircle size={20} />
+              <WhatsAppIcon size={20} />
               Get Custom Quote
             </a>
             <p className="text-center text-[11px] font-body text-charcoal/50 mt-3">

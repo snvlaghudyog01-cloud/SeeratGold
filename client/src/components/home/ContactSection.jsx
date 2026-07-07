@@ -5,7 +5,8 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import WhatsAppIcon from '../common/WhatsAppIcon';
 
 const InstagramIcon = ({ size = 24 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -23,7 +24,7 @@ import { QRCodeSVG } from 'qrcode.react';
 const contactItems = [
   { icon: Phone, label: 'Phone', value: CONTACT_INFO.phone, href: `tel:${CONTACT_INFO.phone}` },
   {
-    icon: MessageCircle,
+    icon: WhatsAppIcon,
     label: 'WhatsApp',
     value: CONTACT_INFO.whatsapp,
     href: CONTACT_INFO.whatsappLink,

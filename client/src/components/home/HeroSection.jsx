@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageCircle, ChevronDown } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
+import WhatsAppIcon from '../common/WhatsAppIcon';
 import InstagramIcon from '../common/InstagramIcon';
 import { generateWhatsAppURL, getGeneralInquiryMessage, WHATSAPP_NUMBER } from '../../utils/whatsapp';
 import { SOCIAL_LINKS } from '../../utils/constants';
@@ -181,7 +182,7 @@ const HeroSection = () => {
                   rel="noopener noreferrer"
                   className="btn-white text-sm md:text-base px-7 py-3 md:px-10 md:py-4"
                 >
-                  <MessageCircle size={18} className="text-[#25D366]" />
+                  <WhatsAppIcon size={18} className="text-[#25D366]" />
                   Order on WhatsApp
                 </a>
 
