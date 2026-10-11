@@ -343,6 +343,28 @@ export const demoProducts = [
     weightOptions: [{ price: 800 }],
     isFeatured: false,
     tags: ['premium', 'asafoetida', 'raw']
+  },
+  {
+    id: 'p29',
+    name: 'Elaichi Powder',
+    slug: 'elaichi-powder',
+    category: 'special-grinds',
+    description: 'Pure ground cardamom powder with rich aroma and authentic taste. No added preservatives.',
+    image: '/images/products/elaichi-powder.jpeg',
+    weightOptions: [{ weight: '50g', price: 650 }],
+    isFeatured: true,
+    tags: ['premium', 'cardamom', 'powder']
+  },
+  {
+    id: 'p30',
+    name: 'Pachantantar',
+    slug: 'pachantantar',
+    category: 'blended-spices',
+    description: 'Ayurvedic digestive powder made from a traditional formula. Discover the tradition of natural digestion.',
+    image: '/images/products/pachantantar.jpeg',
+    weightOptions: [{ weight: '50g', price: 208 }],
+    isFeatured: true,
+    tags: ['ayurvedic', 'digestive', 'premium']
   }
 ];
 

@@ -81,10 +81,12 @@ export const PRODUCTS = [
   { id: 21, name: 'Dry Ginger', slug: 'dry-ginger', category: 'special-grinds', image: '/images/products/ginger-powder.png' },
   { id: 22, name: 'Black Pepper (Powder)', slug: 'black-pepper-powder', category: 'special-grinds', image: '/images/products/black-pepper.png' },
   { id: 23, name: 'Saunf Powder', slug: 'saunf-powder', category: 'special-grinds', image: '/images/products/saunf-powder.jpeg' },
+  { id: 29, name: 'Elaichi Powder', slug: 'elaichi-powder', category: 'special-grinds', image: '/images/products/elaichi-powder.jpeg' },
 
   // Blended Spices
   { id: 16, name: 'Garam Masala', slug: 'garam-masala', category: 'blended-spices', image: '/images/products/garam-masala.png' },
   { id: 17, name: 'Sabji Masala', slug: 'sabji-masala', category: 'blended-spices', image: '/images/products/sabji-masala.png' },
+  { id: 30, name: 'Pachantantar', slug: 'pachantantar', category: 'blended-spices', image: '/images/products/pachantantar.jpeg' },
 ];
 
 // Demo combo packs
