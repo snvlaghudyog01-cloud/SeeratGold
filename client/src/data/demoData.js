@@ -61,7 +61,7 @@ export const demoProducts = [
     category: 'special-grinds',
     description: 'Vibrant red color with a mild, sweet heat.',
     image: '/images/products/kasmiri-mirch.png',
-    weightOptions: [{ weight: '50g', price: 68 }, { weight: '100g', price: 130 }],
+    weightOptions: [{ weight: '50g', price: 72 }, { weight: '100g', price: 142 }],
     isFeatured: true,
     tags: ['mild', 'color', 'chilli']
   },
@@ -105,7 +105,7 @@ export const demoProducts = [
     category: 'blended-spices',
     description: 'A perfect everyday blend for mixed vegetable dishes.',
     image: '/images/products/sabji-masala.png',
-    weightOptions: [{ weight: '50g', price: 47 }, { weight: '100g', price: 87 }],
+    weightOptions: [{ weight: '50g', price: 45 }, { weight: '100g', price: 84 }],
     isFeatured: true,
     tags: ['blend', 'everyday']
   },
@@ -173,7 +173,7 @@ export const demoProducts = [
     category: 'whole-spices',
     description: 'Premium whole cumin seeds with robust earthy flavor.',
     image: '/images/products/jeera.png',
-    weightOptions: [{ weight: '50g', price: 35 }, { weight: '100g', price: 65 }],
+    weightOptions: [{ weight: '50g', price: 39 }, { weight: '100g', price: 72 }, { weight: '200g', price: 138 }],
     isFeatured: false,
     tags: ['whole', 'cumin']
   },
@@ -184,7 +184,7 @@ export const demoProducts = [
     category: 'whole-spices',
     description: 'Strong, pungent whole cloves.',
     image: '/images/products/laung.png',
-    weightOptions: [{ weight: '25g', price: 80 }],
+    weightOptions: [{ weight: '25g', price: 88 }],
     isFeatured: false,
     tags: ['whole', 'cloves', 'strong']
   },
@@ -195,7 +195,7 @@ export const demoProducts = [
     category: 'whole-spices',
     description: 'Premium green cardamom pods, sweet and aromatic.',
     image: '/images/products/elaichi.png',
-    weightOptions: [{ weight: '25g', price: 188 }],
+    weightOptions: [{ weight: '25g', price: 238 }],
     isFeatured: true,
     tags: ['premium', 'whole', 'cardamom']
   },
@@ -228,7 +228,7 @@ export const demoProducts = [
     category: 'whole-spices',
     description: 'Dried fenugreek leaves for a rich, savory aroma.',
     image: '/images/products/kasuri-methi.png',
-    weightOptions: [{ weight: '25g', price: 25 }, { weight: '50g', price: 46 }, { weight: '100g', price: 84 }],
+    weightOptions: [{ weight: '25g', price: 25 }, { weight: '50g', price: 46 }, { weight: '100g', price: 80 }],
     isFeatured: true,
     tags: ['leaves', 'fenugreek']
   },
@@ -250,7 +250,7 @@ export const demoProducts = [
     category: 'whole-spices',
     description: 'Aromatic carom seeds known for digestion benefits.',
     image: '/images/products/ajwain.jpg',
-    weightOptions: [{ weight: '50g', price: 42 }, { weight: '100g', price: 80 }],
+    weightOptions: [{ weight: '50g', price: 39 }, { weight: '100g', price: 74 }],
     isFeatured: false,
     tags: ['whole', 'carom']
   },
@@ -307,7 +307,7 @@ export const demoProducts = [
     category: 'blended-spices',
     description: 'Strong, premium quality asafoetida.',
     image: '/images/products/hing.png',
-    weightOptions: [{ weight: '25g', price: 110 }, { weight: '50g', price: 210 }, { weight: '100g', price: 400 }],
+    weightOptions: [{ weight: '6g', price: 20 }, { weight: '10g', price: 48 }, { weight: '25g', price: 100 }, { weight: '50g', price: 210 }, { weight: '100g', price: 360 }],
     isFeatured: true,
     tags: ['premium', 'asafoetida', 'hing']
   },
@@ -351,7 +351,7 @@ export const demoProducts = [
     category: 'special-grinds',
     description: 'Pure ground cardamom powder with rich aroma and authentic taste. No added preservatives.',
     image: '/images/products/elaichi-powder.jpeg',
-    weightOptions: [{ weight: '50g', price: 650 }],
+    weightOptions: [{ weight: '50g', price: 478 }],
     isFeatured: true,
     tags: ['premium', 'cardamom', 'powder']
   },
@@ -365,6 +365,50 @@ export const demoProducts = [
     weightOptions: [{ weight: '50g', price: 208 }],
     isFeatured: true,
     tags: ['ayurvedic', 'digestive', 'premium']
+  },
+  {
+    id: 'p31',
+    name: 'Chat Masala',
+    slug: 'chat-masala',
+    category: 'blended-spices',
+    description: 'Tangy and spicy chat masala for snacks and street food.',
+    image: '/images/products/placeholder.png',
+    weightOptions: [{ weight: '100g', price: 88 }],
+    isFeatured: false,
+    tags: ['blend', 'tangy', 'snacks']
+  },
+  {
+    id: 'p32',
+    name: 'Chana Masala',
+    slug: 'chana-masala',
+    category: 'blended-spices',
+    description: 'Aromatic spice blend crafted for perfect chana dishes.',
+    image: '/images/products/placeholder.png',
+    weightOptions: [{ weight: '100g', price: 86 }],
+    isFeatured: false,
+    tags: ['blend', 'chana']
+  },
+  {
+    id: 'p33',
+    name: 'Chicken Biryani Masala',
+    slug: 'chicken-biryani-masala',
+    category: 'blended-spices',
+    description: 'Rich and aromatic masala blend for authentic chicken biryani.',
+    image: '/images/products/placeholder.png',
+    weightOptions: [{ weight: '100g', price: 105 }],
+    isFeatured: false,
+    tags: ['blend', 'biryani', 'premium']
+  },
+  {
+    id: 'p34',
+    name: 'White Pepper Powder',
+    slug: 'white-pepper-powder',
+    category: 'special-grinds',
+    description: 'Finely ground white pepper with a sharp, clean heat.',
+    image: '/images/products/placeholder.png',
+    weightOptions: [{ weight: '100g', price: 278 }],
+    isFeatured: false,
+    tags: ['premium', 'pepper', 'white']
   }
 ];
 

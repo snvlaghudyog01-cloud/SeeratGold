@@ -82,7 +82,7 @@ const productsData = [
     description: 'Vibrant red color with a mild, sweet heat.',
     tags: ['mild', 'color', 'chilli'],
     isFeatured: true,
-    weightOptions: [{ weight: '50g', price: 68 }, { weight: '100g', price: 130 }],
+    weightOptions: [{ weight: '50g', price: 72 }, { weight: '100g', price: 142 }],
   },
   {
     name: 'Ginger Powder',
@@ -114,7 +114,7 @@ const productsData = [
     description: 'A perfect everyday blend for mixed vegetable dishes.',
     tags: ['blend', 'everyday'],
     isFeatured: true,
-    weightOptions: [{ weight: '50g', price: 47 }, { weight: '100g', price: 87 }],
+    weightOptions: [{ weight: '50g', price: 45 }, { weight: '100g', price: 84 }],
   },
   {
     name: 'Garam Masala',
@@ -164,7 +164,7 @@ const productsData = [
     description: 'Premium whole cumin seeds with robust earthy flavor.',
     tags: ['whole', 'cumin'],
     isFeatured: false,
-    weightOptions: [{ weight: '50g', price: 35 }, { weight: '100g', price: 65 }],
+    weightOptions: [{ weight: '50g', price: 39 }, { weight: '100g', price: 72 }, { weight: '200g', price: 138 }],
   },
   {
     name: 'Ajwain',
@@ -172,7 +172,7 @@ const productsData = [
     description: 'Aromatic carom seeds known for digestion benefits.',
     tags: ['whole', 'carom'],
     isFeatured: false,
-    weightOptions: [{ weight: '50g', price: 42 }, { weight: '100g', price: 80 }],
+    weightOptions: [{ weight: '50g', price: 39 }, { weight: '100g', price: 74 }],
   },
   {
     name: 'Saunf',
@@ -188,7 +188,7 @@ const productsData = [
     description: 'Strong, pungent whole cloves.',
     tags: ['whole', 'cloves', 'strong'],
     isFeatured: false,
-    weightOptions: [{ weight: '25g', price: 80 }],
+    weightOptions: [{ weight: '25g', price: 88 }],
   },
   {
     name: 'Elaichi',
@@ -196,7 +196,7 @@ const productsData = [
     description: 'Premium green cardamom pods, sweet and aromatic.',
     tags: ['premium', 'whole', 'cardamom'],
     isFeatured: true,
-    weightOptions: [{ weight: '25g', price: 188 }],
+    weightOptions: [{ weight: '25g', price: 238 }],
   },
   {
     name: 'Kali Mirch (Whole)',
@@ -220,7 +220,7 @@ const productsData = [
     description: 'Dried fenugreek leaves for a rich, savory aroma.',
     tags: ['leaves', 'fenugreek'],
     isFeatured: true,
-    weightOptions: [{ weight: '25g', price: 25 }, { weight: '50g', price: 46 }, { weight: '100g', price: 84 }],
+    weightOptions: [{ weight: '25g', price: 25 }, { weight: '50g', price: 46 }, { weight: '100g', price: 80 }],
   },
   {
     name: 'Methi Dana',
@@ -284,7 +284,7 @@ const productsData = [
     description: 'Strong, premium quality asafoetida.',
     tags: ['premium', 'asafoetida', 'hing'],
     isFeatured: true,
-    weightOptions: [{ weight: '25g', price: 110 }, { weight: '50g', price: 210 }, { weight: '100g', price: 400 }],
+    weightOptions: [{ weight: '6g', price: 20 }, { weight: '10g', price: 48 }, { weight: '25g', price: 100 }, { weight: '50g', price: 210 }, { weight: '100g', price: 360 }],
   },
   {
     name: 'Elaichi Powder',
@@ -292,7 +292,7 @@ const productsData = [
     description: 'Pure ground cardamom powder with rich aroma and authentic taste. No added preservatives.',
     tags: ['premium', 'cardamom', 'powder'],
     isFeatured: true,
-    weightOptions: [{ weight: '50g', price: 650 }],
+    weightOptions: [{ weight: '50g', price: 478 }],
   },
   {
     name: 'Pachantantar',
@@ -301,6 +301,38 @@ const productsData = [
     tags: ['ayurvedic', 'digestive', 'premium'],
     isFeatured: true,
     weightOptions: [{ weight: '50g', price: 208 }],
+  },
+  {
+    name: 'Chat Masala',
+    category: 'blended-spices',
+    description: 'Tangy and spicy chat masala for snacks and street food.',
+    tags: ['blend', 'tangy', 'snacks'],
+    isFeatured: false,
+    weightOptions: [{ weight: '100g', price: 88 }],
+  },
+  {
+    name: 'Chana Masala',
+    category: 'blended-spices',
+    description: 'Aromatic spice blend crafted for perfect chana dishes.',
+    tags: ['blend', 'chana'],
+    isFeatured: false,
+    weightOptions: [{ weight: '100g', price: 86 }],
+  },
+  {
+    name: 'Chicken Biryani Masala',
+    category: 'blended-spices',
+    description: 'Rich and aromatic masala blend for authentic chicken biryani.',
+    tags: ['blend', 'biryani', 'premium'],
+    isFeatured: false,
+    weightOptions: [{ weight: '100g', price: 105 }],
+  },
+  {
+    name: 'White Pepper Powder',
+    category: 'special-grinds',
+    description: 'Finely ground white pepper with a sharp, clean heat.',
+    tags: ['premium', 'pepper', 'white'],
+    isFeatured: false,
+    weightOptions: [{ weight: '100g', price: 278 }],
   }
 ];
 

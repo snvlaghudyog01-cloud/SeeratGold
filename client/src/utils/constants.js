@@ -82,11 +82,15 @@ export const PRODUCTS = [
   { id: 22, name: 'Black Pepper (Powder)', slug: 'black-pepper-powder', category: 'special-grinds', image: '/images/products/black-pepper.png' },
   { id: 23, name: 'Saunf Powder', slug: 'saunf-powder', category: 'special-grinds', image: '/images/products/saunf-powder.jpeg' },
   { id: 29, name: 'Elaichi Powder', slug: 'elaichi-powder', category: 'special-grinds', image: '/images/products/elaichi-powder.jpeg' },
+  { id: 34, name: 'White Pepper Powder', slug: 'white-pepper-powder', category: 'special-grinds', image: '/images/products/placeholder.png' },
 
   // Blended Spices
   { id: 16, name: 'Garam Masala', slug: 'garam-masala', category: 'blended-spices', image: '/images/products/garam-masala.png' },
   { id: 17, name: 'Sabji Masala', slug: 'sabji-masala', category: 'blended-spices', image: '/images/products/sabji-masala.png' },
   { id: 30, name: 'Pachantantar', slug: 'pachantantar', category: 'blended-spices', image: '/images/products/pachantantar.jpeg' },
+  { id: 31, name: 'Chat Masala', slug: 'chat-masala', category: 'blended-spices', image: '/images/products/placeholder.png' },
+  { id: 32, name: 'Chana Masala', slug: 'chana-masala', category: 'blended-spices', image: '/images/products/placeholder.png' },
+  { id: 33, name: 'Chicken Biryani Masala', slug: 'chicken-biryani-masala', category: 'blended-spices', image: '/images/products/placeholder.png' },
 ];
 
 // Demo combo packs
