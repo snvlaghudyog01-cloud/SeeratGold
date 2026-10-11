@@ -250,7 +250,7 @@ export const demoProducts = [
     category: 'whole-spices',
     description: 'Aromatic carom seeds known for digestion benefits.',
     image: '/images/products/ajwain.jpg',
-    weightOptions: [{ weight: '50g', price: 39 }, { weight: '100g', price: 74 }],
+    weightOptions: [{ weight: '50g', price: 39 }, { weight: '100g', price: 72 }],
     isFeatured: false,
     tags: ['whole', 'carom']
   },

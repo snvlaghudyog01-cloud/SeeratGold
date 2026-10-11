@@ -172,7 +172,7 @@ const productsData = [
     description: 'Aromatic carom seeds known for digestion benefits.',
     tags: ['whole', 'carom'],
     isFeatured: false,
-    weightOptions: [{ weight: '50g', price: 39 }, { weight: '100g', price: 74 }],
+    weightOptions: [{ weight: '50g', price: 39 }, { weight: '100g', price: 72 }],
   },
   {
     name: 'Saunf',
